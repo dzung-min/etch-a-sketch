@@ -1,0 +1,19 @@
+:root {
+  box-sizing: border-box;
+  --table-size: 90vmin;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  width: var(--table-size);
+  height: var(--table-size);
+}
+.cell {
+  height: 1fr;
+  border: 1px solid black;
+}
+
+.cell:hover {
+  background-color: brown;
+}

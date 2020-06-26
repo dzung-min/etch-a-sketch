@@ -17,3 +17,7 @@
 .cell:hover {
   background-color: brown;
 }
+
+.painted {
+  background-color: brown;
+}

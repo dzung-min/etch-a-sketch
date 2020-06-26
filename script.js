@@ -7,6 +7,9 @@ for (let i = 0; i < 16; i++) {
   }
 }
 
+// Can't find out how to click and drag the mouse to draw yet
+// Temporary solution: When the user click -> start drawing, then
+// stop when the user click again.
 const cells = document.querySelectorAll('.cell');
 let counter = 0;
 table.addEventListener('click', () => {

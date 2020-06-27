@@ -3,21 +3,37 @@
   --table-size: 90vmin;
 }
 
+body {
+  background-color: rgb(27, 53, 51);
+}
+
+button {
+  height: 40px;
+  width: 140px;
+}
+
+#control {
+  width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 #container {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   width: var(--table-size);
   height: var(--table-size);
+  margin: 10px auto;
+  border: 3px solid black;
 }
 .cell {
   height: 1fr;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
+  background-color: white;
 }
 
-.cell:hover {
-  background-color: brown;
-}
-
-.painted {
-  background-color: brown;
+.drawed {
+  background-color: rgba(0,0,0,0.5);
 }
